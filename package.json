@@ -13,5 +13,14 @@
 		"weather"
 	],
 	"author": "Artem Balandin",
-	"license": "ISC"
+	"license": "ISC",
+	"homepage": "https://github.com/Artifan92/WEATHER-CLI",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Artifan92/WEATHER-CLI"
+	},
+	"bugs": {
+		"url": "https://github.com/Artifan92/WEATHER-CLI",
+		"email": "artembalandin1992@gmail.com"
+	}
 }
