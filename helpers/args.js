@@ -7,9 +7,10 @@ function getArgs(args) {
 		if (item.charAt(0) == '-') {
 			if (index == array.length - 1) {
 				res[item.substring(1)] = true;
-			}
-			if (array[index + 1].charAt(0) != '-') {
+			} else if (array[index + 1].charAt(0) != '-') {
 				res[item.substring(1)] = array[index + 1];
+			} else {
+				res[item.substring(1)] = true;
 			}
 		}
 	});
